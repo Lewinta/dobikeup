@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dobikeup *.css
+recursive-include dobikeup *.csv
+recursive-include dobikeup *.html
+recursive-include dobikeup *.ico
+recursive-include dobikeup *.js
+recursive-include dobikeup *.json
+recursive-include dobikeup *.md
+recursive-include dobikeup *.png
+recursive-include dobikeup *.py
+recursive-include dobikeup *.svg
+recursive-include dobikeup *.txt
+recursive-exclude dobikeup *.pyc
