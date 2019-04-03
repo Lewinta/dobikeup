@@ -11,6 +11,8 @@ class BikeRepair(Document):
 		self.create_stock_entry()
 
 	def create_stock_entry(self):
+		if not self.parts:
+			return
 		ste = frappe.new_doc("Stock Entry")
 		ste.update({
 			"purpose":"Material Issue",

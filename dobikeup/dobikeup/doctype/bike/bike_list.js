@@ -1,5 +1,5 @@
 frappe.listview_settings['Bike'] = {
-	"add_fields": ["status", "docstatus"],
+	"add_fields": ["status"],
 	"onload": (listview) => {
 		
 	},
